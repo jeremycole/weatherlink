@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     weatherlink (0.1.0)
+      ruby-units (~> 2.3)
 
 GEM
   remote: https://rubygems.org/
@@ -21,6 +22,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.3)
+    ruby-units (2.3.1)
 
 PLATFORMS
   ruby
