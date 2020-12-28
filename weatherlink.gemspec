@@ -8,8 +8,11 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Jeremy Cole']
   spec.email         = ['jeremy@jcole.us']
 
-  spec.summary       = 'Unofficial Davis Instruments WeatherLink/AirLink API v2 in Ruby'
-  spec.description   = spec.summary
+  spec.summary       = 'Unofficial Davis Instruments WeatherLink/AirLink API in Ruby'
+  spec.description   = %{
+    This is an unofficial implementation of the Davis Instruments WeatherLink API, including both
+    the Local API (v1) and the web API (v2).
+  }
   spec.homepage      = 'http://github.com/jeremycole/weatherlink'
   spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.6.0')
