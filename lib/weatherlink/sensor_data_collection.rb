@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'delegate'
+
 module WeatherLink
   class SensorDataCollection < SimpleDelegator
     attr_reader :client

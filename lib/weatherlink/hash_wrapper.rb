@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'delegate'
+
 module WeatherLink
   class HashWrapper < SimpleDelegator
     attr_reader :data
