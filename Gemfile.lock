@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    weatherlink (0.1.0)
+    weatherlink (0.1.2)
       ruby-units (~> 2.3)
 
 GEM
