@@ -32,6 +32,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency('ruby-units', '~> 2.3')
 
-  spec.add_development_dependency('rake', '~> 12.0')
+  spec.add_development_dependency('rake', '~> 13.0')
   spec.add_development_dependency('rspec', '~> 3.0')
 end
