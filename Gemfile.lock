@@ -22,7 +22,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
     rspec-support (3.10.1)
-    ruby-units (2.3.1)
+    ruby-units (2.3.2)
 
 PLATFORMS
   ruby
